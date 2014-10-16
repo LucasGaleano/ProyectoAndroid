@@ -22,6 +22,7 @@ public class HombreMovement : MonoBehaviour {
 		anim.SetBool ("Ground",grounded);
 		anim.SetBool ("grind",grind);
 
+
 		anim.SetFloat ("velocidadVertical",rigidbody2D.velocity.y);
 
 
